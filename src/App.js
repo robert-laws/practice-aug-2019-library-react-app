@@ -1,15 +1,17 @@
 import React from 'react';
+import { Container, Button, Typography } from '@material-ui/core';
 import './App.scss';
 
 function App() {
   return (
-    <div>
-      <header>
-        <h1>
-          Library App
-        </h1>
-      </header>
-    </div>
+    <Container>
+      <Typography variant="h4" gutterBottom>
+        Library App
+      </Typography>
+      <Button variant="contained" color="primary">
+        Hello World
+      </Button>
+    </Container>
   );
 }
 
